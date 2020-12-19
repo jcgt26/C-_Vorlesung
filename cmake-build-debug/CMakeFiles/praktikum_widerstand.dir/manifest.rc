@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Puma/CLionProjects/praktikum_widerstand/cmake-build-debug/CMakeFiles/praktikum_widerstand.dir/embed.manifest"

@@ -1,0 +1,3 @@
+C:/Users/Puma/CLionProjects/praktikum_widerstand/cmake-build-debug/CMakeFiles/praktikum_widerstand.dir
+C:/Users/Puma/CLionProjects/praktikum_widerstand/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Puma/CLionProjects/praktikum_widerstand/cmake-build-debug/CMakeFiles/rebuild_cache.dir
