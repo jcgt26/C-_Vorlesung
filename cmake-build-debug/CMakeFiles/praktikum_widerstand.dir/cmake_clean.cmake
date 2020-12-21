@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/praktikum_widerstand.dir/Circuit.cpp.obj"
   "CMakeFiles/praktikum_widerstand.dir/Decoder.cpp.obj"
-  "CMakeFiles/praktikum_widerstand.dir/Except.cpp.obj"
   "CMakeFiles/praktikum_widerstand.dir/Piece.cpp.obj"
   "CMakeFiles/praktikum_widerstand.dir/Resistor.cpp.obj"
   "CMakeFiles/praktikum_widerstand.dir/VoltageSource.cpp.obj"

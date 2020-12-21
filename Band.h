@@ -2,13 +2,14 @@
 #ifndef PRAKTIKUM_WIDERSTAND_BAND_H
 #define PRAKTIKUM_WIDERSTAND_BAND_H
 
-
 struct Color
 {
     char value;
     int multiplier;
 };
-
+/**
+ * @brief Class Band will be a container for Color objects
+ */
 class Band
 {
 public:

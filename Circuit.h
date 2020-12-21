@@ -1,7 +1,3 @@
-//
-// Created by Puma on 12/6/2020.
-//
-
 #ifndef PRAKTIKUM_WIDERSTAND_CIRCUIT_H
 #define PRAKTIKUM_WIDERSTAND_CIRCUIT_H
 #include"Piece.h"
@@ -10,10 +6,23 @@
 #include<vector>
 #include<iostream>
 using namespace std;
+
+
+/**
+ * @details Circuit controls the flow of the assembled pieces; they're already connected
+ */
 class Circuit {
 public:
     Circuit() =  default;
-    void run_circuit(Piece*,vector<Piece*>);
+    /**
+     *
+     * @param root - The first piece to be visited
+     * @param visited - vector of visited pieces
+     */
+    void run_circuit(Piece* root,vector<Piece*> visited);
+    /**
+     * @details Formatting output for the user
+     */
     void print_results();
 
 private:

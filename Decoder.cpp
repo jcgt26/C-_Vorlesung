@@ -1,4 +1,3 @@
-
 #include "Decoder.h"
 #include<math.h>
 Decoder::Decoder(){
@@ -7,47 +6,23 @@ Decoder::Decoder(){
 Decoder::~Decoder(){
 
 }
-float Decoder::decode(Resistor resistor) {
-    string temp;
-    float ans;
-    vector<Color> localBand = resistor.get_band();
-    for (size_t i = 0; i < localBand.size(); i++)
-    {
-        if (i != localBand.size() - 1)
-        {
-            if (localBand[i].value == 'G' || localBand[i].value == 'S')
-            {
-                 cout<<"wrong Band color, please check"<<endl;
-                 exit(-1);
-            }
-            else
-            {
-                temp += localBand[i].value;
-            }
-        }
-        else
-        {
-            ans = stoi(temp) * pow(10,localBand[i].multiplier);
-        }
-    }
-    return ans;
-}
+
 
 float Decoder::decode_band(vector<Color> localBand) {
     string temp;
     float ans;
     for (size_t i = 0; i < localBand.size(); i++)
     {
-        if (i != localBand.size() - 1)
+        if (i < localBand.size() - 1)
         {
-            if (localBand[i].value == 'G' || localBand[i].value == 'S')
-            {
-                cout<<"wrong Band color, please check"<<endl;
-                exit(-1);
-            }
-            else
-            {
+
+            try{
+                if (localBand[i].value == 'G' || localBand[i].value == 'S')
+                    throw "Wrong Band color, please check";
                 temp += localBand[i].value;
+            }catch(char *err){
+                cerr << err <<endl;
+                exit(1);
             }
         }
         else
@@ -66,6 +41,7 @@ vector<Color> Decoder::create_band(float resistance, int bandType) {
     string sResistance = to_string(resistance);
     string firstValues;
     Color multiplierColor;
+
     for (int i = 0; i < bandType - 1; i++)
     {
         if(sResistance[i] == '.') {

@@ -20,6 +20,12 @@ vector
 iostream
 -
 
+C:/Users/Puma/CLionProjects/praktikum_widerstand/Decoder.cpp
+Decoder.h
+C:/Users/Puma/CLionProjects/praktikum_widerstand/Decoder.h
+math.h
+-
+
 C:/Users/Puma/CLionProjects/praktikum_widerstand/Decoder.h
 vector
 -
@@ -41,6 +47,10 @@ string
 -
 iostream
 -
+
+C:/Users/Puma/CLionProjects/praktikum_widerstand/Resistor.cpp
+Decoder.h
+C:/Users/Puma/CLionProjects/praktikum_widerstand/Decoder.h
 
 C:/Users/Puma/CLionProjects/praktikum_widerstand/Resistor.h
 iostream

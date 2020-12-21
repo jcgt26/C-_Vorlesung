@@ -48,10 +48,10 @@ int main(int argc, char const *argv[])
     Circuit circuit;
 /////////////////////////////////////////////////////////////////////////CONNECT PIECES
     voltage.set_neighbour(&r);
-    r.set_neighbour(&r);
-    r2.set_neighbour(&r4);
+    r.set_neighbour(&r2);
+    r2.set_neighbour(&voltage);
 //    r4.set_neighbour(&r);
-//    r.set_neighbour(&voltage);
+//    r2.set_neighbour(&voltage);
 //    r4.set_neighbour(&r3);
 
 

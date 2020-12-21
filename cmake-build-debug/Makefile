@@ -181,33 +181,6 @@ Decoder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\praktikum_widerstand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\praktikum_widerstand.dir\Decoder.cpp.s
 .PHONY : Decoder.cpp.s
 
-Except.obj: Except.cpp.obj
-
-.PHONY : Except.obj
-
-# target to build an object file
-Except.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\praktikum_widerstand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\praktikum_widerstand.dir\Except.cpp.obj
-.PHONY : Except.cpp.obj
-
-Except.i: Except.cpp.i
-
-.PHONY : Except.i
-
-# target to preprocess a source file
-Except.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\praktikum_widerstand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\praktikum_widerstand.dir\Except.cpp.i
-.PHONY : Except.cpp.i
-
-Except.s: Except.cpp.s
-
-.PHONY : Except.s
-
-# target to generate assembly for a file
-Except.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\praktikum_widerstand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\praktikum_widerstand.dir\Except.cpp.s
-.PHONY : Except.cpp.s
-
 Piece.obj: Piece.cpp.obj
 
 .PHONY : Piece.obj
@@ -331,9 +304,6 @@ help:
 	@echo ... Decoder.obj
 	@echo ... Decoder.i
 	@echo ... Decoder.s
-	@echo ... Except.obj
-	@echo ... Except.i
-	@echo ... Except.s
 	@echo ... Piece.obj
 	@echo ... Piece.i
 	@echo ... Piece.s

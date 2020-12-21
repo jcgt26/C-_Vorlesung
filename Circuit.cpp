@@ -35,7 +35,7 @@ void Circuit::run_circuit(Piece *root, vector<Piece*> visited) {
                 print_results();
                 break;
             }
-            if(std::count(visited.begin(), visited.end(), neighbour)){
+            if(std::count(visited.begin(), visited.end(), neighbour)){ //already visited
                 continue;
             }
 

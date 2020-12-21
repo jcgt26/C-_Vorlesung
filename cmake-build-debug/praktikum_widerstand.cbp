@@ -95,12 +95,6 @@
 		<Unit filename="C:/Users/Puma/CLionProjects/praktikum_widerstand/Decoder.h">
 			<Option target="praktikum_widerstand"/>
 		</Unit>
-		<Unit filename="C:/Users/Puma/CLionProjects/praktikum_widerstand/Except.cpp">
-			<Option target="praktikum_widerstand"/>
-		</Unit>
-		<Unit filename="C:/Users/Puma/CLionProjects/praktikum_widerstand/Except.h">
-			<Option target="praktikum_widerstand"/>
-		</Unit>
 		<Unit filename="C:/Users/Puma/CLionProjects/praktikum_widerstand/Piece.cpp">
 			<Option target="praktikum_widerstand"/>
 		</Unit>
